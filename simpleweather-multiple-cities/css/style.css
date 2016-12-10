@@ -1,0 +1,367 @@
+body{
+ background-image: url("http://eskipaper.com/images/fog-background-2.jpg");
+  background-repeat: no-repeat;
+  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.lightbox-gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.2); 
+
+ padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+.lightbox-gallery div {
+ 
+  
+}
+
+@font-face {
+    font-family: 'weather';
+    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.eot');
+    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.woff') format('woff'),
+         url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.ttf') format('truetype'),
+         url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.svg#artill_clean_weather_iconsRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  
+}
+
+body {
+
+  font: 16px 'Open Sans', "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+ 
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  
+}
+
+
+
+
+#weather3 {
+  width: 500px;
+  margin: 10px auto;
+  text-align: center;
+  text-transform: uppercase;
+  font-style: italic;
+  background: #1192d3 url(http://prasannaellanti.com/wp-content/uploads/2014/01/oahu-cinemagraph.gif) no-repeat bottom right;
+  background-size: cover;
+  color: white;
+  text-shadow: 1px 1.5px 1px black;
+  box-shadow: 3px 3px 10px black;
+}
+
+
+
+
+
+#weather2 {
+  width: 500px;
+  margin: 10px auto;
+  text-align: center;
+  text-transform: uppercase;
+  font-style: italic;
+  background: #1192d3 url(http://big.assets.huffingtonpost.com/san.francisco.google.gif) no-repeat bottom right;
+  background-size: cover;
+  color: white;
+  text-shadow: 1px 1.5px 1px black;
+    box-shadow: 3px 3px 10px black;
+}
+
+
+#weather1{
+   width: 500px;
+  margin: 10px auto;
+  text-align: center;
+  text-transform: uppercase;
+  font-style: italic;
+  background: #1192d3 url(https://media.giphy.com/media/Yz65LVuvXFQUo/giphy-downsized-large.gif) no-repeat bottom right;
+  background-size: cover;
+  border: red;
+  color: white;
+  text-shadow: 1px 1.5px 1px black;
+    box-shadow: 3px 3px 10px black;
+}
+
+#weather {
+  width: 500px;
+  margin: 10px auto;
+  text-align: center;
+  text-transform: uppercase;
+  font-style: italic;
+  background: #1192d3 url(http://cdn6.feeldesain.com/feel/wp-content/uploads/2012/01/feeldesain-cab-window-429.gif) no-repeat bottom right;
+  background-size: cover;
+  color: white;
+  text-shadow: 1px 1.5px 1px black;
+    box-shadow: 3px 3px 10px black;
+}
+
+i {
+  color: white;
+  font-family: weather;
+  font-size: 160px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.0;
+  text-transform: none;
+}
+
+
+
+.icon-0:before { 
+  content: ":"; 
+  text-shadow: 2px 2px 2px black;}
+
+.icon-1:before { 
+  content: "p"; 
+  text-shadow: 2px 2px 2px black;}
+
+.icon-2:before { 
+  content: "S"; 
+  text-shadow: 2px 2px 2px black;}
+
+.icon-3:before { 
+  content: "Q"; 
+  text-shadow: 2px 2px 2px black;}
+
+.icon-4:before { 
+  content: "S"; 
+  text-shadow: 2px 2px 2px black;}
+
+.icon-5:before { 
+  content: "W"; 
+  text-shadow: 2px 2px 2px black;}
+
+.icon-6:before { 
+  content: "W"; 
+  text-shadow: 2px 2px 2px black;}
+
+.icon-7:before { 
+  content: "W"; 
+  text-shadow: 2px 2px 2px black;}
+
+.icon-8:before { 
+  content: "W"; 
+  text-shadow: 2px 2px 2px black;}
+
+.icon-9:before { 
+  content: "I"; 
+  text-shadow: 2px 2px 2px black;}
+
+.icon-10:before { 
+  content: "W"; 
+  text-shadow: 2px 2px 2px black;}
+
+.icon-11:before { 
+  content: "I"; 
+  text-shadow: 2px 2px 2px black;}
+
+.icon-12:before { 
+  content: "I"; 
+  text-shadow: 2px 2px 2px black;}
+
+.icon-13:before { 
+  content: "I";
+  text-shadow: 2px 2px 2px black;}
+
+.icon-14:before { 
+  content: "I"; 
+  text-shadow: 2px 2px 2px black;}
+
+.icon-15:before { 
+  content: "W"; 
+  text-shadow: 2px 2px 2px black;}
+
+.icon-16:before { 
+  content: "I"; 
+  text-shadow: 2px 2px 2px black;}
+
+.icon-17:before { 
+  content: "W"; 
+  text-shadow: 2px 2px 2px black;}
+
+.icon-18:before { 
+  content: "U";
+  text-shadow: 2px 2px 2px black;}
+
+.icon-19:before { 
+  content: "Z"; 
+  text-shadow: 2px 2px 2px black;}
+
+.icon-20:before { 
+  content: "Z"; 
+  text-shadow: 2px 2px 2px black;}
+
+.icon-21:before { 
+  content: "Z"; 
+  text-shadow: 2px 2px 2px black;}
+
+.icon-22:before { 
+  content: "Z"; 
+  text-shadow: 2px 2px 2px black;}
+
+.icon-23:before { 
+  content: "Z"; 
+  text-shadow: 2px 2px 2px black;}
+
+.icon-24:before { 
+  content: "E"; 
+  text-shadow: 2px 2px 2px black;}
+
+.icon-25:before { 
+  content: "E"; 
+  text-shadow: 2px 2px 2px black;}
+
+.icon-26:before { 
+  content: "3"; 
+  text-shadow: 2px 2px 2px black;}
+
+.icon-27:before { 
+  content: "a"; 
+  text-shadow: 2px 2px 2px black;}
+
+.icon-28:before { 
+  content: "A"; 
+  text-shadow: 2px 2px 2px black;}
+
+.icon-29:before { 
+  content: "a"; 
+  text-shadow: 2px 2px 2px black;}
+
+.icon-30:before { 
+  content: "A"; 
+  text-shadow: 2px 2px 2px black;}
+
+.icon-31:before { 
+  content: "6"; 
+  text-shadow: 2px 2px 2px black;}
+
+.icon-32:before { 
+  content: "1"; 
+  text-shadow: 2px 2px 2px black;}
+
+.icon-33:before { 
+  content: "6"; 
+  text-shadow: 2px 2px 2px black;}
+
+.icon-34:before { 
+  content: "1"; 
+  text-shadow: 2px 2px 2px black;}
+
+.icon-35:before { 
+  content: "W"; 
+  text-shadow: 2px 2px 2px black;}
+
+.icon-36:before { 
+  content: "1"; 
+  text-shadow: 2px 2px 2px black;}
+
+.icon-37:before { 
+  content: "S"; 
+  text-shadow: 2px 2px 2px black;}
+
+.icon-38:before {
+  content: "S"; 
+  text-shadow: 2px 2px 2px black;}
+
+.icon-39:before {
+  content: "S"; 
+  text-shadow: 2px 2px 2px black;}
+
+.icon-40:before { 
+  content: "M"; 
+  text-shadow: 2px 2px 2px black;}
+
+.icon-41:before { 
+  content: "W"; 
+  text-shadow: 2px 2px 2px black;}
+
+.icon-42:before { 
+  content: "I"; 
+  text-shadow: 2px 2px 2px black;}
+
+.icon-43:before { 
+  content: "W"; 
+  text-shadow: 2px 2px 2px black;}
+
+.icon-44:before { 
+  content: "a"; 
+  text-shadow: 2px 2px 2px black;}
+
+.icon-45:before { 
+  content: "S"; 
+  text-shadow: 2px 2px 2px black;}
+
+.icon-46:before { 
+  content: "U";
+  text-shadow: 2px 2px 2px black;}
+
+.icon-47:before { 
+  content: "S"; 
+  text-shadow: 2px 2px 2px black;}
+
+
+
+#weather3 h2,
+#weather2 h2,
+#weather1 h2,
+#weather h2 {
+  margin: 0 0 8px;
+  color: #fff;
+  font-size: 100px;
+  font-weight: 300;
+  text-align: center;
+  text-shadow: 2px 2px 3px black;
+}
+
+
+
+
+#weather3 ul,
+#weather2 ul,
+#weather1 ul,
+#weather ul {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+#weather3 li,
+#weather2 li,
+#weather1 li,
+#weather li {
+  background: rgba(255,255,255,0.3);
+  padding: 20px;
+  display: inline-block;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px black;
+  margin-bottom: 10px;
+}
+
+#weather3 .currently,
+#weather2 .currently,
+#weather1 .currently,
+#weather .currently {
+  margin: 10px;
+}
